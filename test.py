@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#glob - 텍스트 파일로 변환해서 list에 넣어주는 함수
+#glob - 파일명을 list형식으로 변환
 paths = glob.glob('./notMNIST_small/*/*.png')
 print(paths)
 paths = np.random.permutation(paths)
